@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.form {
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap:17px;
+}
+
+.form--button{
+    grid-column: 1 / -1;
+    font-family: 'Satisfy', cursive;
+    border-radius: 5px;
+    background: linear-gradient(to right, red 0%, yellow 25%, green 50%, blue 75%, purple 100%);
+    font-size: large;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme{
+    padding: 4%;
+    
+}
+
+.form--input{
+    font-family: 'Satisfy', cursive;
+    border-radius: 5px;
+    border:1px solid rgb(223, 219, 219);
+    text-indent: 10px;
+
+}
+
+.meme--image{
+    max-width: 900px;
+    max-height: 600px;
+}
+
+.meme--complete{
+    position: relative;
+}
+
+.meme--complete--top--text{
+    position: absolute;
+top: 10%; /* Position the overlay 50% from the top */
+left: 50%; /* Position the overlay 50% from the left */
+transform: translate(-50%, -50%); /* Center the overlay */
+color: white;
+font-family: 'Oswald', sans-serif;
+-webkit-text-stroke: 1px black;
+font-size: 35px;
+
+}
+
+.meme--complete--bottom--text{
+    position: absolute;
+bottom: 10%; /* Position the overlay 50% from the top */
+left: 50%; /* Position the overlay 50% from the left */
+transform: translate(-50%, -50%); /* Center the overlay */
+color: white;
+font-family: 'Oswald', sans-serif;
+-webkit-text-stroke: 1px black;
+font-size: 35px;
+
+}

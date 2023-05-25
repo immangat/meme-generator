@@ -1,0 +1,14 @@
+.header{
+    background: linear-gradient(to right, red 0%, yellow 25%, green 50%, blue 75%, purple 100%);
+    padding:1% 0;
+}
+
+.header--content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--content-title{
+    margin-left: 1%;
+}
